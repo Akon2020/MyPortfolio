@@ -7,7 +7,7 @@ const timelineEvents = [
   {
     year: "2025",
     title: "Developer at Code Growth Alive",
-    location: "Remote",
+    location: "Bukavu, RDC",
     description: "Building innovative solutions and mentoring aspiring developers in modern web technologies.",
     type: "work",
   },
