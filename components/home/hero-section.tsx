@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Twitter, Instagram, Facebook } from "lucide-react";
 import { AnimatedBackground } from "@/components/animated-background";
 import { ScrollIndicator } from "@/components/scroll-indicator";
 
@@ -103,6 +103,24 @@ export function HeroSection() {
               aria-label="Twitter"
             >
               <Twitter className="w-5 h-5" />
+            </a>
+            <a
+              href="https://instagram.com/akonizk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors flex items-center justify-center"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a
+              href="https://facebook.com/Akonkwa.Ushindi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors flex items-center justify-center"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-5 h-5" />
             </a>
             <a
               href="mailto:akonkwaushindi@gmail.com"

@@ -8,6 +8,8 @@ import {
   Github,
   Linkedin,
   Twitter,
+  Instagram,
+  Facebook,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -33,21 +35,24 @@ const contactMethods = [
 ];
 
 const socialLinks = [
-  {
-    icon: Github,
-    label: "GitHub",
-    href: "https://github.com/Akon2020",
-  },
+  { icon: Github, href: "https://github.com/Akon2020", label: "GitHub" },
   {
     icon: Linkedin,
-    label: "LinkedIn",
     href: "https://linkedin.com/in/akonizk",
+    label: "LinkedIn",
+  },
+  { icon: Twitter, href: "https://twitter.com/akon1703", label: "Twitter" },
+  {
+    icon: Instagram,
+    href: "https://instagram.com/akonizk",
+    label: "Instagram",
   },
   {
-    icon: Twitter,
-    label: "Twitter",
-    href: "https://twitter.com/akon1703",
+    icon: Facebook,
+    href: "https://facebook.com/Akonkwa.Ushindi",
+    label: "Facebook",
   },
+  { icon: Mail, href: "mailto:akonkwaushindi@gmail.com", label: "Email" },
 ];
 
 export function ContactInfo() {

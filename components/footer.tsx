@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import {
+  Facebook,
+  Github,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Mail,
+} from "lucide-react";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/Akon2020", label: "GitHub" },
@@ -9,6 +16,16 @@ const socialLinks = [
     label: "LinkedIn",
   },
   { icon: Twitter, href: "https://twitter.com/akon1703", label: "Twitter" },
+  {
+    icon: Instagram,
+    href: "https://instagram.com/akonizk",
+    label: "Instagram",
+  },
+  {
+    icon: Facebook,
+    href: "https://facebook.com/Akonkwa.Ushindi",
+    label: "Facebook",
+  },
   { icon: Mail, href: "mailto:akonkwaushindi@gmail.com", label: "Email" },
 ];
 
