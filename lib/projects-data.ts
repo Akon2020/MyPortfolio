@@ -1,18 +1,18 @@
 export interface Project {
-  id: string
-  title: string
-  description: string
-  image: string
-  tags: string[]
-  categories: string[]
-  problem: string
-  objective: string
-  role: string
-  techStack: string[]
-  screenshots: string[]
-  results: string[]
-  liveUrl?: string
-  githubUrl?: string
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  categories: string[];
+  problem: string;
+  objective: string;
+  role: string;
+  techStack: string[];
+  screenshots: string[];
+  results: string[];
+  liveUrl?: string;
+  githubUrl?: string;
 }
 
 export const projectsData: Project[] = [
@@ -22,7 +22,15 @@ export const projectsData: Project[] = [
     description:
       "Web & Mobile app for real-time incident reporting and coordination using AI-powered insights and geolocation tracking.",
     image: "/security-management-dashboard.png",
-    tags: ["React", "Next.js", "React Native", "Node.js", "Firebase", "Mapbox", "AI"],
+    tags: [
+      "React",
+      "Next.js",
+      "React Native",
+      "Node.js",
+      "Firebase",
+      "Mapbox",
+      "AI",
+    ],
     categories: ["Web", "Mobile", "AI", "Security"],
     problem:
       "Public safety agencies struggled with delayed incident reporting and poor coordination between field officers and command centers, leading to slower response times and inefficient resource allocation.",
@@ -50,7 +58,7 @@ export const projectsData: Project[] = [
       "AI system achieved 85% accuracy in threat classification",
     ],
     liveUrl: "https://security-demo.example.com",
-    githubUrl: "https://github.com/isaacakonkwa/security-management",
+    githubUrl: "https://github.com/Akon2020/security-management",
   },
   {
     id: "agribot",
@@ -72,19 +80,24 @@ export const projectsData: Project[] = [
       "Cloud Vision API for image processing",
       "SQLite for offline data storage",
     ],
-    screenshots: ["/agriculture-mobile-app.jpg", "/agribot-scanning.jpg", "/agribot-results.jpg"],
+    screenshots: [
+      "/agriculture-mobile-app.jpg",
+      "/agribot-scanning.jpg",
+      "/agribot-results.jpg",
+    ],
     results: [
       "Helped 2,000+ farmers across 5 regions",
       "Achieved 92% accuracy in disease detection",
       "Reduced crop losses by average of 30%",
       "Works offline in areas with limited connectivity",
     ],
-    githubUrl: "https://github.com/isaacakonkwa/agribot",
+    githubUrl: "https://github.com/Akon2020/agribot",
   },
   {
     id: "mentorship-platform",
     title: "Mentorship Platform",
-    description: "Web & mobile solution connecting mentors and learners across domains with real-time communication.",
+    description:
+      "Web & mobile solution connecting mentors and learners across domains with real-time communication.",
     image: "/mentorship-platform-interface.jpg",
     tags: ["React", "FastAPI", "Firestore", "WebRTC"],
     categories: ["Web", "Mobile"],
@@ -101,7 +114,11 @@ export const projectsData: Project[] = [
       "WebRTC for video calls",
       "Stripe for payments",
     ],
-    screenshots: ["/mentorship-platform-interface.jpg", "/mentorship-matching.jpg", "/mentorship-video-call.jpg"],
+    screenshots: [
+      "/mentorship-platform-interface.jpg",
+      "/mentorship-matching.jpg",
+      "/mentorship-video-call.jpg",
+    ],
     results: [
       "Connected 500+ mentor-mentee pairs",
       "Facilitated 3,000+ mentorship sessions",
@@ -109,22 +126,24 @@ export const projectsData: Project[] = [
       "Average session rating of 4.8/5",
     ],
     liveUrl: "https://mentorship-demo.example.com",
-    githubUrl: "https://github.com/isaacakonkwa/mentorship-platform",
+    githubUrl: "https://github.com/Akon2020/mentorship-platform",
   },
-]
+];
 
 export function getProjectById(id: string): Project | undefined {
-  return projectsData.find((project) => project.id === id)
+  return projectsData.find((project) => project.id === id);
 }
 
 export function getNextProject(currentId: string): Project | undefined {
-  const currentIndex = projectsData.findIndex((p) => p.id === currentId)
-  if (currentIndex === -1 || currentIndex === projectsData.length - 1) return projectsData[0]
-  return projectsData[currentIndex + 1]
+  const currentIndex = projectsData.findIndex((p) => p.id === currentId);
+  if (currentIndex === -1 || currentIndex === projectsData.length - 1)
+    return projectsData[0];
+  return projectsData[currentIndex + 1];
 }
 
 export function getPreviousProject(currentId: string): Project | undefined {
-  const currentIndex = projectsData.findIndex((p) => p.id === currentId)
-  if (currentIndex === -1 || currentIndex === 0) return projectsData[projectsData.length - 1]
-  return projectsData[currentIndex - 1]
+  const currentIndex = projectsData.findIndex((p) => p.id === currentId);
+  if (currentIndex === -1 || currentIndex === 0)
+    return projectsData[projectsData.length - 1];
+  return projectsData[currentIndex - 1];
 }

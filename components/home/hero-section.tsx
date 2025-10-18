@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { AnimatedBackground } from "@/components/animated-background";
 import { ScrollIndicator } from "@/components/scroll-indicator";
 
@@ -78,7 +78,7 @@ export function HeroSection() {
             className="flex justify-center gap-4"
           >
             <a
-              href="https://github.com/isaacakonkwa"
+              href="https://github.com/Akon2020"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors flex items-center justify-center"
@@ -87,7 +87,7 @@ export function HeroSection() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/in/isaacakonkwa"
+              href="https://linkedin.com/in/akonizk"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors flex items-center justify-center"
@@ -96,7 +96,16 @@ export function HeroSection() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:isaac@example.com"
+              href="https://twitter.com/akon1703"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors flex items-center justify-center"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-5 h-5" />
+            </a>
+            <a
+              href="mailto:akonkwaushindi@gmail.com"
               className="w-12 h-12 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors flex items-center justify-center"
               aria-label="Email"
             >

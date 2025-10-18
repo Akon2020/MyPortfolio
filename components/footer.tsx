@@ -2,14 +2,14 @@ import Link from "next/link";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/isaacakonkwa", label: "GitHub" },
+  { icon: Github, href: "https://github.com/Akon2020", label: "GitHub" },
   {
     icon: Linkedin,
-    href: "https://linkedin.com/in/isaacakonkwa",
+    href: "https://linkedin.com/in/akonizk",
     label: "LinkedIn",
   },
-  { icon: Twitter, href: "https://twitter.com/isaacakonkwa", label: "Twitter" },
-  { icon: Mail, href: "mailto:isaac@example.com", label: "Email" },
+  { icon: Twitter, href: "https://twitter.com/akon1703", label: "Twitter" },
+  { icon: Mail, href: "mailto:akonkwaushindi@gmail.com", label: "Email" },
 ];
 
 const footerLinks = [
