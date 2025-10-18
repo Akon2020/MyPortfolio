@@ -45,7 +45,7 @@ const skillCategories = [
     icon: Shield,
     title: "Security",
     level: "Intermediate",
-    skills: ["Pentesting", "CTFs", "Ethical Hacking", "Security Audits", "OWASP"],
+    skills: ["Bug Bounty", "Pentesting", "CTFs", "Ethical Hacking", "Security Audits", "OWASP"],
   },
 ]
 
