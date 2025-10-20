@@ -17,8 +17,8 @@ export default function ProjectsPage() {
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed text-balance">
               A collection of my work spanning web development, mobile
-              applications, AI integration, and cybersecurity. Each project
-              represents a commitment to building secure, scalable, and
+              applications, AI integration and cybersecurity. Each project
+              represents a commitment to building secure, scalable and
               impactful solutions.
             </p>
           </div>

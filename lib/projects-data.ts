@@ -36,7 +36,7 @@ export const projectsData: Project[] = [
       "Public safety agencies struggled with delayed incident reporting and poor coordination between field officers and command centers, leading to slower response times and inefficient resource allocation.",
     objective:
       "Create a unified platform that enables real-time incident reporting, AI-powered threat analysis, and seamless coordination between citizens, field officers, and emergency response teams.",
-    role: "Lead Fullstack Developer - Designed and implemented both web dashboard and mobile applications, integrated AI analytics, and built real-time communication infrastructure.",
+    role: "Fullstack Developer - Designed and implemented both web dashboard and mobile applications, integrated AI analytics, and built real-time communication infrastructure.",
     techStack: [
       "React & Next.js for web dashboard",
       "React Native for mobile apps",
@@ -48,8 +48,8 @@ export const projectsData: Project[] = [
     ],
     screenshots: [
       "/security-management-dashboard.png",
-      "/security-mobile-reporting.jpg",
-      "/security-analytics-view.jpg",
+      "/security-management-dashboard.png",
+      "/security-management-dashboard.png",
     ],
     results: [
       "Reduced average incident response time by 40%",
@@ -57,8 +57,8 @@ export const projectsData: Project[] = [
       "Improved coordination between 200+ field officers",
       "AI system achieved 85% accuracy in threat classification",
     ],
-    liveUrl: "https://security-demo.example.com",
-    githubUrl: "https://github.com/Akon2020/security-management",
+    liveUrl: "https://projet-tutore-2024-ucb.vercel.app",
+    githubUrl: "https://github.com/Akon2020/securityApp",
   },
   {
     id: "agribot",

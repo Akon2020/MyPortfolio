@@ -30,7 +30,7 @@ const contactMethods = [
     icon: Calendar,
     label: "Schedule a Meeting",
     value: "Book a time slot",
-    href: "https://calendly.com/isaacakonkwa",
+    href: "https://calendly.com/akon1703",
   },
 ];
 
@@ -141,8 +141,8 @@ export function ContactInfo() {
       <div className="bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 rounded-xl p-6">
         <h3 className="text-lg font-semibold mb-3">Open to Opportunities</h3>
         <p className="text-muted-foreground text-sm leading-relaxed text-pretty">
-          I'm currently open to freelance projects, collaborations, and
-          full-time opportunities. Let's build something amazing together!
+          I'm currently open to freelance projects, collaborations and full-time
+          opportunities. Let's build something amazing together!
         </p>
       </div>
     </motion.div>

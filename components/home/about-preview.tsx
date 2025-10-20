@@ -42,11 +42,11 @@ export function AboutPreview() {
             <p className="text-muted-foreground leading-relaxed mb-6 text-pretty">
               I'm a multidisciplinary developer who believes technology is a
               tool for impact. From building secure backend systems to designing
-              intuitive mobile experiences, I focus on solving real problems.
+              intuitive web and mobile experiences, I focus on solving real problems.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8 text-pretty">
               My journey into tech started with curiosity about how systems
-              work, how data moves, and how technology can protect and improve
+              work, how data moves and how technology can protect and improve
               lives. Today, I'm passionate about creating solutions that empower
               communities.
             </p>

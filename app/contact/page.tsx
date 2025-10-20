@@ -17,7 +17,7 @@ export default function ContactPage() {
               Let's <span className="gradient-text">Connect</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed text-balance">
-              Whether you have a project in mind, want to collaborate, or just
+              Whether you have a project in mind, want to collaborate or just
               want to say hello, I'd love to hear from you. Fill out the form
               below or reach out directly.
             </p>

@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export function IntroSection() {
   return (
@@ -17,23 +17,29 @@ export function IntroSection() {
           </h1>
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p className="text-lg text-pretty">
-              My journey into tech started with curiosity — curiosity about how systems work, how data moves, and how
-              technology can protect and improve lives. Today, I'm a Fullstack Developer passionate about building
-              secure and impactful systems for communities.
+              My journey into tech started with curiosity about how to create a
+              website, how systems work, how data moves and how technology can
+              protect and improve lives. Today, I'm a Fullstack Developer
+              passionate about building secure and impactful systems for
+              communities.
             </p>
             <p className="text-lg text-pretty">
-              From crafting intuitive mobile experiences with React Native to architecting robust backend systems with
-              Node.js and Python, I thrive at the intersection of innovation and practicality. My work spans web
-              development, mobile applications, AI integration, and cybersecurity — always with a focus on creating
-              solutions that matter.
+              From crafting intuitive mobile experiences with React Native to
+              architecting robust backend systems with Node.js and Python, I
+              thrive at the intersection of innovation and practicality. My work
+              spans web development, mobile applications, AI integration, and
+              cybersecurity, always with a focus on creating solutions that
+              matter.
             </p>
             <p className="text-lg text-pretty">
-              Beyond code, I'm deeply involved in the tech community as a Co-Organizer of GDG On Campus at UCB and a
-              speaker at DevFest Bujumbura. I believe in the power of knowledge sharing and collaborative growth.
+              Beyond code, I'm deeply involved in the tech community as a mentor
+              and Co-Organizer Alumni of GDG On Campus UCB and a speaker at
+              DevFest 2024 at Bujumbura. I believe in the power of knowledge
+              sharing and collaborative growth.
             </p>
           </div>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

@@ -18,7 +18,7 @@ export default function BlogPage() {
             <p className="text-lg text-muted-foreground leading-relaxed text-balance">
               Writing about what I learn helps me think deeper and give back to
               the community. Explore my thoughts on web development, AI,
-              cybersecurity, and the developer journey.
+              cybersecurity and the developer journey.
             </p>
           </div>
 

@@ -71,7 +71,7 @@ export function ContactForm() {
           </Label>
           <Input
             id="name"
-            placeholder="Your name"
+            placeholder="Your fullname"
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
             required
@@ -109,7 +109,7 @@ export function ContactForm() {
           <Textarea
             id="message"
             placeholder="Tell me about your project or idea... (minimum 50 characters)"
-            rows={6}
+            rows={18}
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
             required
