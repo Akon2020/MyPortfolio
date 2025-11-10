@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Isaac Akonkwa | Fullstack & Mobile Developer",
     description:
-      "Discover my portfolio — Fullstack & Mobile Developer passionate about building scalable, secure, and human-centered digital solutions",
+      "Discover my portfolio | Fullstack & Mobile Developer passionate about building scalable, secure, and human-centered digital solutions",
     url: "https://isaacakonkwa.vercel.app",
     siteName: "Isaac Akonkwa Portfolio",
     locale: "en_US",
